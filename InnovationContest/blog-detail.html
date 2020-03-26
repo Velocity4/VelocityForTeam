@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>blog-detail</title>
+	<!--================================================                **** CSS Files ****==================================================-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/icofont.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/owl.carousel.min.css" rel="stylesheet">
+	<link href="css/owl.theme.default.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/menuhover.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<!--================================================                **** /CSS Files ****==================================================-->
+	<style type="text/css">
+		.share {float: right;margin-top: 8px;font-family: calibri;font-size: 14px;letter-spacing: .05em;font-weight: 700;}
+		.share a{padding-right: 8px}
+		.share img{height: 18px}
+		.donatestyle{color:white;border-radius: 3px !important;
+			/*background-image:linear-gradient(-45deg,#00763d,#1db46c,#8fc440,#00a0af,#00763d) !important;*/
+			/*animation: Gradient 20s ease infinite !important;*/
+			background-color: #00753d;
+			padding:5px 20px !important;margin-right: 30px;}
+		.signinstyle{color: #00753d !important;font-weight: 700 !important;padding:5px 20px !important;}
+		#footersocial li {border:1px solid #464646;border-radius:5px;background:transparent;height: 40px;width: 40px;}
+		#footersocial li a img{margin:auto;}
+		.mr-2{font-weight: 600;margin-top: 1%;}
+		.taglist{width: 50%;}
+		.taglist ul li{display: list-item;text-align: -webkit-match-parent;margin:0 3px;float: left;}
+		.taglist ul li a{display: block;padding: 6px 15px 5px 15px;border: 1px solid #dee2e6;border-radius: 3px;}
+		/*#fc427b*/
+		.btn-primary{border-radius: 5px;background-color: #00753d;border:0px;}
+		.thumb{position: absolute;width: 80px;}
+		.content{position: relative;padding-left: 100px;margin-bottom: 30px;}
+		.reply{float: right;margin-top: -3%;font-weight: 700}
+		.reply a {color:#fc427b;}
+		.name{font-size: 18px;}
+		.single-comment-item{float: left;width: 100%}
+	</style> 
+</head>
+<body>
+	<!-- Static navbar -->
+	<div class="share">
+		<a href="/donate" class=donatestyle>DONATE</a>
+		<a href="http://instagram.com/jaworldwide" target="_blank"><img src="images/JAInstagram.png"></a>
+		<a href="https://www.linkedin.com/school/ja-worldwide" target="_blank"><img src="images/JALinkedin.png"></a>
+		<a href="http://twitter.com/jaworldwide" target="_blank"><img src="images/JATwitter1.png"></a>
+		<a href="hhttp://facebook.com/jaworldwide" target="_blank"><img src="images/JAFacebook1.png"></a>
+		<a class="signinstyle" style="font-weight: 700"href="update/login.html">Sign in</a>
+	</div>
+	<nav class="navbar navbar-expand-md btco-hover-menu navbar-1">
+		<div class="container">
+			<a class="navbar-brand" href="https://www.jaworldwide.org/">
+				<img src="images/JAWW.png" class="img-fluid" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="index.html" >Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">Donation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html" style="color: #00753d;font-weight: bold;">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Training</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="update/exhibition.html">Exhibition</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto" style="height: 40px;width: 40px;">
+					<!-- <li class="nav-item">
+						<a class="nav-link btn btn-primary" href="#">Buy Now </a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" id="addClass" href="#" style="width: 40px;">
+							<i class="icofont icofont-search-alt-1">
+								<img src="images/Search.png" style="margin-top: -40px;">
+							</i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="myCarousel" class="carousel slide banner-2" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="first-slide img-fluid" src="images/student.png" alt="First slide">
+				<div class="container">
+					<div class="carousel-caption banner1 text-center">
+						<h2 class="wow fadeInUp">Blog Details</h2>
+						<p class="breadcrumb-item"><a href="#">Home</a>/ Blog Details</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="section-padding-ash"  style="padding-top: 50px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="blog-post-cont">
+								<img src="images/creativepeople.jpg" class="img-fluid" alt="item 1">
+								<div class="text-cont">
+									<h6><a href="#">Bob</a> | <a href="#">January 19, 2020</a></h6>
+									<h5><a href="#">Getting ready for the work readiness training</a></h5>
+									<p>There are many kinds of training sessions provided by JA. This blog will show you how to equip yourself with the right skills.</p>
+									<p>There are many kinds of training sessions provided by JA. This blog will show you how to equip yourself with the right skills.There are many kinds of training sessions provided by JA. This blog will show you how to equip yourself with the right skills.</p>
+									<p>There are many kinds of training sessions provided by JA. This blog will show you how to equip yourself with the right skills.</p>
+									<div class="social-cont" style="background-color: white;padding-left: 15px;">
+										<div class="taglist">
+											<ul>
+												<li class="title mr-2"><h5>Tags:</h5></li>
+												<li><a href="#">Investment</a></li>
+												<li><a href="#">Business</a></li>
+												<li><a href="#">Finance</a></li>
+											</ul>
+										</div>
+										<div class="alignleft" style="margin-left: 4%">
+											<h5>Share us on:</h5>
+										</div>
+										
+										<div class="share" style="float: left;margin-top: 4px;">
+											
+											<a href="http://instagram.com/jaworldwide" target="_blank"><img src="images/JAInstagram.png"></a>
+											<a href="https://www.linkedin.com/school/ja-worldwide" target="_blank"><img src="images/JALinkedin.png"></a>
+											<a href="http://twitter.com/jaworldwide" target="_blank"><img src="images/JATwitter1.png"></a>
+											<a href="hhttp://facebook.com/jaworldwide" target="_blank"><img src="images/JAFacebook1.png"></a>
+											
+										</div>
+									</div>
+
+									<div class="entry-comment">
+										<h3 class="title">Comments On This Post</h3>
+										<!-- <ul class="comment-list">
+											<li> -->
+												<div class="single-comment-item">
+													<div class="thumb">
+														<img src="images/01.png" alt="comments image">
+													</div>
+													<div class="content">
+														
+														<h4 class="name">Bob</h4>
+														<div class="reply"><a href="#">Reply</a></div>
+														<span class="time">
+															<i class="far fa-clock"></i>2 hours ago
+														</span>
+														<p>What a wonderful post. Appreciate it.</p>
+													</div>
+												</div>
+										<!-- 	</li>
+											<li> -->
+												<div class="single-comment-item " style="margin-left: 10%;width: 90% ">
+													<div class="thumb ">
+														<img src="images/02.png" alt="comments image">
+													</div>
+													<div class="content">
+														<h4 class="name">Lucy</h4>
+														<div class="reply"><a href="#">Reply</a></div>
+														<span class="time"><i class="far fa-clock"></i>2 hours ago</span>
+														<p>Yeah, i agree</p>
+													</div>
+												</div>
+											<!-- </li>
+											<li> -->
+												<div class="single-comment-item">
+													<!-- single comment item -->
+													<div class="thumb">
+														<img src="images/03.png" alt="comments image">
+													</div>
+													<div class="content">
+														
+															<h4 class="name">Adam</h4>
+															<div class="reply"><a href="#">Reply</a></div>
+															<span class="time"><i class="far fa-clock"></i>2 hours ago</span>
+															<p>Fantastic..</p>
+													</div>
+												</div>
+											<!-- </li>
+										</ul> -->
+									</div>
+
+									<h5>Comments</h5>
+									<form action="process.php" method="post" name="ContactForm" id="ContactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="fname" placeholder="Name *">
+												</div>
+											</div>
+											<!-- <div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="lname" placeholder="Last Name *">
+												</div>
+											</div> -->
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" placeholder="Email *">
+												</div>
+											</div>
+											<!-- <div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" placeholder="Subject *">
+												</div>
+											</div> -->
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea rows="5" class="form-control" name="comment" placeholder="Your Message *"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<button type="submit" class="btn btn-primary">Submit</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="sidebar">
+						<div class="sidebar-item">
+							<h5>Category</h5><hr>
+							<ul>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Business</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Corporate</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Multipurpose</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Creative</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Technology</a></li>
+							</ul>
+						</div>
+						<div class="sidebar-item">
+							<h5>Archives</h5><hr>
+							<ul>
+								<li><a href="#">2020</a></li>
+								<li><a href="#">2019</a></li>
+								<li><a href="#">2018</a></li>
+								<li><a href="#">2017</a></li>
+								<li><a href="#">2016</a></li>
+							</ul>
+						</div>
+						<div class="sidebar-item">
+							<h5>Recent Posts</h5><hr>
+							<ul>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">A little girl volunteer's story</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Getting ready for the work readiness training</a></li>
+								<li>
+									<img src="images/greatergreen.png" style="margin: auto 10px auto -24px">
+									<a href="#">Funny stories i have with JA</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="footer" style="background-color: #1c1c1c;padding-top: 60px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="footer-item">
+							<img class="img-fluid" src="images/JAWW1.png" alt="logo-2" style="width: 50%;">
+							<p>With offices in over 100 countries, the JA (Junior Achievement) global network aspires to escalate its capacity in execution and funding model growing its global reach from 10 million to 100 million young people per year</p>
+						</div>
+						<div class="footer-item">
+							<ul class="social" id="footersocial">
+								<li>
+									<a href="#">
+										<img src="images/face1.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/twitter1.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/instagram1.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/pinterest1.png">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 offset-lg-1">
+						<div class="footer-item">
+							<h4>Quick Links</h4>
+							<ul>
+								<li>
+									<img src="images/greater.png" style="margin: auto 10px auto -24px">
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<img src="images/greater.png" style="margin: auto 10px auto -24px">
+									<a href="#">Donation</a>
+								</li>
+								<li>
+									<img src="images/greater.png" style="margin: auto 10px auto -24px">
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<img src="images/greater.png" style="margin: auto 10px auto -24px">
+									<a href="#">Training</a>
+								</li>
+								<li>
+									<img src="images/greater.png" style="margin: auto 10px auto -24px">
+									<a href="#">Exhibition</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3" style="margin-left: 8%;">
+						<div class="footer-item">
+							<h4>Contact Us</h4>
+							<strong style="color: #00753d">JA Worldwide </br> 745 Atlantic Avenue </br> Boston, MA, USA 02111 </br> +1-617-315-8563</strong>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer-bottom">
+							<p>Copyright © 2020. All Rights <a href="https://www.jaworldwide.org/">Reserved</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+
+			<div id="qnimate" class="off"><div id="search" class="open"><button data-widget="remove" id="removeClass" class="close" type="button">×</button><form action="#" method="post" autocomplete="off"><input type="text" placeholder="Type search keywords here" value="" name="term" id="term"><button class="btn btn-primary btn-xl" type="submit"><span class="glyphicon glyphicon-search"></span>Search</button></form></div></div><!--================================================                **** JS Files ****==================================================--><script src="js/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/numscroller.js"></script><script src="js/owl.carousel.js"></script><script src="js/jquery.isotope.min.js"></script><script src="js/jquery.magnific-popup.min.js"></script><script src="js/menu.js"></script><script src="js/wow.min.js"></script><script src="js/main.js"></script><!--================================================                **** /JS Files ****==================================================-->
+</body>
+</html>
